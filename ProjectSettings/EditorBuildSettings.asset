@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Real-time Positioning System/Scenes/SampleScene.unity
+    path: Assets/Scenes/DC.unity
+    guid: ca68da1a7daa8e34c8e00896d7e0c2ed
+  - enabled: 1
+    path: Assets/Scenes/Equisde.unity
+    guid: afabe94a3da931f49928ff22ff9aa84d
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 181b5f0e78eadb642860353111c04968
+  - enabled: 1
+    path: Assets/Racing Starter Kit/Scenes/SampleScene.unity
     guid: adc28652a668a9646b0352d63f41b808
   m_configObjects: {}
