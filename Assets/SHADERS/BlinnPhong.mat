@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MyBump:
-        m_Texture: {fileID: 2800000, guid: c3eb85c9fa894d04980a96c380a20a13, type: 3}
+        m_Texture: {fileID: 2800000, guid: 547a030c981642743b5ceaf95bcec594, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -29,6 +29,6 @@ Material:
     - _Gloss: 0.5
     - _Spec: 0.5
     m_Colors:
-    - _Color: {r: 1, g: 0.5309945, b: 0, a: 1}
+    - _Color: {r: 1, g: 0.989607, b: 0, a: 1}
     - _SpecColor: {r: 0, g: 1, b: 0.8273995, a: 1}
   m_BuildTextureStacks: []

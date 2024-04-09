@@ -23,10 +23,10 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - MyColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
-    - MyColor2: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
-    - MyColor3: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
-    - MyEmission: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
-    - MyNormal: {r: 0.9433962, g: 0.22694907, b: 0.8437035, a: 1}
+    - MyColor: {r: 1, g: 0, b: 0, a: 1}
+    - MyColor2: {r: 0.43125343, g: 0, b: 1, a: 1}
+    - MyColor3: {r: 0, g: 0, b: 0, a: 1}
+    - MyEmission: {r: 1, g: 0, b: 0.28891945, a: 1}
+    - MyNormal: {r: 0.8490482, g: 0.94509804, b: 0.22745097, a: 1}
     - _RimColor: {r: 0, g: 0.5, b: 0.5, a: 0}
   m_BuildTextureStacks: []

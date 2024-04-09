@@ -19,12 +19,23 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _MyCube:
+        m_Texture: {fileID: 8900000, guid: 4a58f37b7fd4ca5488134e35e810e866, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MyTex:
+        m_Texture: {fileID: 2800000, guid: 57b7ff6fa16a94241be9d8267f4467e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _MyFloat: 0.5
     - _MyMultiplier: 5
+    - _MyRange: 2.5
     m_Colors:
-    - _MyColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MyColor: {r: 0.2830189, g: 0.17221431, b: 0.17221431, a: 1}
     - _MyEmission: {r: 1, g: 1, b: 1, a: 1}
     - _MyNormal: {r: 1, g: 1, b: 1, a: 1}
+    - _MyVector: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
