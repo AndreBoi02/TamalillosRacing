@@ -5,7 +5,7 @@ public class CarCamera : MonoBehaviour
     Transform rootNode;
     Transform car;
     Rigidbody carPhysics;
-    private GameObject PlayerCar;
+    [SerializeField] private GameObject PlayerCar;
     public float posX, posY, posZ;
     public float rotX;
 
@@ -20,7 +20,7 @@ public class CarCamera : MonoBehaviour
 
     private void Start()
     {
-        PlayerCar = GameObject.FindGameObjectWithTag("PlayerCar");
+        //PlayerCar = GameObject.FindGameObjectWithTag("PlayerCar");
     }
 
     void LateUpdate()
