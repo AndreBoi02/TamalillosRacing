@@ -15,12 +15,7 @@ public class Lap : MonoBehaviour
     {
         if (!lapManager.raceFinished)
         {
-            if (other.tag == "Player")
-            {
-                lapManager.AdvanceTrigger();
-                Debug.Log(other.tag);
-            }
-            else if (other.tag == "Car2")
+            if (other.tag == "Player" || other.tag == "Car2")
             {
                 lapManager.AdvanceTrigger();
                 Debug.Log(other.tag);
@@ -28,14 +23,7 @@ public class Lap : MonoBehaviour
         }
         else
         {
-            if (other.tag == "Player")
-            {
-                Debug.Log("Player 1 wins the race!");
-            }
-            else if (other.tag == "Car2")
-            {
-                Debug.Log("Player 2 wins the race!");
-            }
+            lapManager.PlayerWins(other.tag);
         }
     }
 }
