@@ -42,11 +42,9 @@ public class LapManager : MonoBehaviour
 
     public void PlayerWins(string playerTag)
     {
-        if (raceFinished)
-        {
-            winCanvas.SetActive(true);
-            winText.text = playerTag == "Player" ? "¡Jugador 1 gana la carrera!" : "¡Jugador 2 gana la carrera!";
-        }
+        winCanvas.SetActive(true);
+        winText.text = playerTag == "Player" ? "¡Jugador 1 gana la carrera!" : "¡Jugador 2 gana la carrera!";
+        raceFinished = true;
     }
 
     public void GoToMenu()
